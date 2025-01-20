@@ -1,0 +1,68 @@
+  body {
+            font-family: Arial, sans-serif;
+        background-color: #e0d207;
+            margin: 0;
+            padding: 20px;
+             
+        }
+         hr{
+            width: 40px;
+            color: #000000;
+         }
+        .container {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        font-weight: 800;
+            max-width: 600px;
+            margin: 0 auto;
+            background: rgb(5, 163, 0);
+            padding: 57px;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.884);
+            text-shadow: #e0d207;
+        }
+        h1 {
+            text-align: center;
+            text-shadow: #4CAF50;
+            font-size: 900 px;
+            font-variant: normal;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 900;
+            font-stretch: semi-expanded;
+
+            color: #000000;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .login-link {
+            text-align: center;
+            margin-top: 15px;
+        }

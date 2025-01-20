@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> KYU Chess Club Registration</title>
+
+</head>
+<body>
+     <h1>KYU Chess Club </h1>
+     <hr>
+    <div class="container" class="div-1">
+       
+        <form action="profile handler.php" method="POST">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="fide_id">FIDE ID:</label>
+                <input type="number" id="fide_id" name="fide_id" placeholder="108*****">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone" name="phone" required placeholder="+254******">
+            </div>
+            <div class="form-group">
+                <label for="rating">FIDE Rating (if any):</label>
+                <input type="number" id="rating" name="rating">
+            </div>
+            <div class="form group">
+                <label for="rating-chess">Chess .com rating </label>
+                <input type="number" name="rating-chess id="rating-chess">
+                 </div>
+                <br>
+            <button type="submit">Register</button>
+        </form>
+        <div class="login-link">
+            Already have an account? <a href="index.html">Login here</a>
+        </div>
+    </div>
+</body>
+</html>
